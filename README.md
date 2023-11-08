@@ -8,6 +8,21 @@ A Python and Arduino-based tool to measure light luminosity levels using phototr
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+## Compatibility
+
+The list below are boards where this project ran successfully:
+
+- Arduino UNO R3
+
+## How To Use
+
+The `sensor` folder has the Arduino code which you should upload to your Arduino board.
+If you would like to visualize the radar, you should open the folder `radar` and then type the following command:
+
+```sh
+python 3 main.py
+```
+
 ## Screenshots
 
 ### Sensor
