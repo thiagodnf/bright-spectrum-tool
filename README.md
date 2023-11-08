@@ -29,6 +29,8 @@ python 3 main.py
 
 ### Radar
 
+The image below shows the radar running where each point represents the luminosity level provided by the Arduino board. The closer to the outer arc, the brighter the light.
+
 ![ezgif com-video-to-gif](https://github.com/thiagodnf/bright-spectrum-tool/assets/114015/c522c884-feb5-4d1f-89f9-ca96cc0363ff)
 
 
