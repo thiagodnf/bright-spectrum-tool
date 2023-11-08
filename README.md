@@ -20,7 +20,7 @@ The `sensor` folder has the source code that you should upload to your Arduino b
 If you would like to visualize the radar, you should open the folder `radar` and then type the following command:
 
 ```sh
-python 3 main.py
+python3 main.py
 ```
 
 ## Screenshots
