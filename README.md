@@ -8,6 +8,13 @@ A Python and Arduino-based tool to measure light luminosity levels using phototr
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+## Screenshots
+
+### Sensor
+
+### Radar
+
+
 ## Questions or Suggestions
 
 Feel free to access the <a href="../../discussions">discussions</a> tab as you need.
