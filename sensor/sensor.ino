@@ -6,6 +6,7 @@ const byte sensorPin = A1;
 const byte potPin = A0;
 const byte beaconPin = 4;
 const byte servoPin = 3;
+const byte buzzerPin = 11;  //buzzer to arduino pin 9
 
 // Light Sensor
 int lightAmount = 0;
@@ -28,6 +29,7 @@ void setup() {
   pinMode(potPin, INPUT);
   pinMode(beaconPin, OUTPUT);
   pinMode(sensorPin, INPUT);
+  pinMode(buzzerPin, OUTPUT);
 
   // start the serial monitor
   Serial.begin(9600);
@@ -90,4 +92,10 @@ void collectData() {
   Serial.print(servoAngle);
   Serial.print(",");
   Serial.println(lightAmount);
+
+  if (lightAmount > 700) {
+    tone(buzzerPin, 200);  // Send 1KHz sound signal...
+  } else {
+    noTone(buzzerPin);  // Stop sound...
+  }
 }
