@@ -16,7 +16,7 @@ The list below are boards where this project ran successfully:
 
 ## How To Use
 
-The `sensor` folder has the Arduino code which you should upload to your Arduino board.
+The `sensor` folder has the source code which you should upload to your Arduino board.
 If you would like to visualize the radar, you should open the folder `radar` and then type the following command:
 
 ```sh
